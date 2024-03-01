@@ -27,6 +27,7 @@ metadata:
   labels:
     karmada-app: karmada-search
     apiserver: "true"
+    app.kubernetes.io/managed-by: karmada-operator
 spec:
   selector:
     matchLabels:
@@ -98,6 +99,7 @@ metadata:
   labels:
     karmada-app: karmada-search
     apiserver: "true"
+    app.kubernetes.io/managed-by: karmada-operator
 spec:
   ports:
     - port: 443
